@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { NgbModalModule } from '@ng-bootstrap/ng-bootstrap';
 import { SharedModule } from '../shared/shared.module';
+import { ImportLayoutComponent } from './components/import-layout.component';
 import { LoadLayoutComponent } from './components/load-layout.component';
 import { SaveLayoutComponent } from './components/save-layout.component';
 import { ShareLayoutComponent } from './components/share-layout.component';
@@ -24,6 +25,7 @@ import { StationRoutingModule } from './station-routing.module';
     DragDropModule
   ],
   declarations: [
+    ImportLayoutComponent,
     LoadLayoutComponent,
     SaveLayoutComponent,
     ShareLayoutComponent,
@@ -33,6 +35,7 @@ import { StationRoutingModule } from './station-routing.module';
     StationSummaryComponent
   ],
   entryComponents: [
+    ImportLayoutComponent,
     LoadLayoutComponent,
     SaveLayoutComponent,
     ShareLayoutComponent

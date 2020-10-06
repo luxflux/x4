@@ -11,6 +11,7 @@ import { ModuleService } from '../../shared/services/module.service';
 import { WareService } from '../../shared/services/ware.service';
 import { LayoutService } from '../services/layout-service';
 import { LoadLayoutComponent, LoadLayoutResult, LoadLayoutType } from './load-layout.component';
+import { ImportLayoutComponent, ImportLayoutResult, ImportLayoutType } from './import-layout.component';
 import { SaveLayoutComponent } from './save-layout.component';
 import { ShareLayoutComponent } from './share-layout.component';
 import { StationModuleModel } from './station-calculator.model';
@@ -167,6 +168,36 @@ export class StationCalculatorComponent extends ComponentBase implements OnInit 
                      this.modules = existingModules;
                   }
                }
+            }
+         });
+   }
+
+   importLayout() {
+      const modalRef = this.modal.open(ImportLayoutComponent);
+      modalRef.result
+         .then((data: ImportLayoutResult) => {
+            if (data) {
+              console.log({ data });
+               // const layout = this.layoutService.getLayout(data.layoutName);
+               // if (layout) {
+               //    if (data.type == LoadLayoutType.load) {
+               //       this.layout = layout;
+               //       this.loadLayoutInternal(layout);
+               //    } else if (data.type == LoadLayoutType.add) {
+               //       const existingModules = this.modules.concat([]);
+
+               //       const modules = this.getModules(layout.config);
+               //       modules.forEach(x => {
+               //          const existing = existingModules.find(m => m.moduleId == x.moduleId);
+               //          if (existing == null) {
+               //             existingModules.push(x);
+               //          } else {
+               //             existing.count += x.count;
+               //          }
+               //       });
+               //       this.modules = existingModules;
+               //    }
+               // }
             }
          });
    }
