@@ -10,6 +10,7 @@ import { TurretType } from './turret-type-data';
 export const Modules = {
    module_arg_conn_base_01: {
       id: 'module_arg_conn_base_01',
+      macroName: 'struct_arg_base_01_macro',
       version: 0,
       name: 'Argon Base Connection Structure 01',
       description: 'No information available',
@@ -91,6 +92,7 @@ export const Modules = {
    },
    module_arg_conn_cross_01: {
       id: 'module_arg_conn_cross_01',
+      macroName: 'struct_arg_cross_01_macro',
       version: 0,
       name: 'Argon Cross Connection Structure 01',
       description: 'No information available',
@@ -118,6 +120,7 @@ export const Modules = {
    },
    module_arg_conn_vertical_01: {
       id: 'module_arg_conn_vertical_01',
+      macroName: 'struct_arg_vertical_01_macro',
       version: 0,
       name: 'Argon Vertical Connection Structure 01',
       description: 'No information available',
@@ -339,6 +342,7 @@ export const Modules = {
    },
    module_arg_dock_m_01: {
       id: 'module_arg_dock_m_01',
+      macroName: 'dockarea_arg_m_station_01_lowtech_macro',
       version: 0,
       name: '1M6S Standard Dock Area',
       description: 'No information available',
@@ -514,6 +518,7 @@ export const Modules = {
    },
    module_arg_dock_m_02_lowtech: {
       id: 'module_arg_dock_m_02_lowtech',
+      macroName: 'dockarea_arg_m_station_02_lowtech_macro',
       version: 0,
       name: '3M6S Basic Dock Area',
       description: 'No information available',
@@ -549,6 +554,7 @@ export const Modules = {
    },
    module_arg_dock_tradestation_02: {
       id: 'module_arg_dock_tradestation_02',
+      macroName: 'dockarea_arg_m_02_tradestation_01_macro',
       version: 0,
       name: '8M Standard Dock Area',
       description: 'No information available',
@@ -1019,6 +1025,7 @@ export const Modules = {
    },
    module_arg_stor_container_l_01: {
       id: 'module_arg_stor_container_l_01',
+      macroName: 'storage_arg_l_container_01_macro',
       version: 0,
       name: 'Argon L Container Storage',
       description: 'No information available',
@@ -1121,6 +1128,7 @@ export const Modules = {
    },
    module_arg_stor_container_s_01: {
       id: 'module_arg_stor_container_s_01',
+      macroName: 'storage_arg_s_container_01_macro',
       version: 0,
       name: 'Argon S Container Storage',
       description: 'No information available',
@@ -1163,6 +1171,7 @@ export const Modules = {
    },
    module_arg_stor_liquid_l_01: {
       id: 'module_arg_stor_liquid_l_01',
+      macroName: 'storage_arg_l_liquid_01_macro',
       version: 0,
       name: 'Argon L Liquid Storage',
       description: 'No information available',
@@ -1265,6 +1274,7 @@ export const Modules = {
    },
    module_arg_stor_liquid_s_01: {
       id: 'module_arg_stor_liquid_s_01',
+      macroName: 'storage_arg_s_liquid_01_macro',
       version: 0,
       name: 'Argon S Liquid Storage',
       description: 'No information available',
@@ -1406,6 +1416,7 @@ export const Modules = {
    },
    module_arg_stor_solid_s_01: {
       id: 'module_arg_stor_solid_s_01',
+      macroName: 'storage_arg_s_solid_01_macro',
       version: 0,
       name: 'Argon S Solid Storage',
       description: 'No information available',
@@ -1672,6 +1683,7 @@ export const Modules = {
    },
    module_gen_prod_advancedcomposites_01: {
       id: 'module_gen_prod_advancedcomposites_01',
+      macroName: 'prod_gen_advancedcomposites_macro',
       version: 0,
       name: 'Advanced Composite Production',
       description: 'No information available',
@@ -1729,6 +1741,7 @@ export const Modules = {
    },
    module_gen_prod_advancedelectronics_01: {
       id: 'module_gen_prod_advancedelectronics_01',
+      macroName: 'prod_gen_advancedelectronics_macro',
       version: 0,
       name: 'Advanced Electronics Production',
       description: 'No information available',
@@ -1843,6 +1856,7 @@ export const Modules = {
    },
    module_gen_prod_antimatterconverters_01: {
       id: 'module_gen_prod_antimatterconverters_01',
+      macroName: 'prod_gen_antimatterconverters_macro',
       version: 0,
       name: 'Antimatter Converter Production',
       description: 'No information available',
@@ -2011,6 +2025,7 @@ export const Modules = {
    },
    module_gen_prod_energycells_01: {
       id: 'module_gen_prod_energycells_01',
+      macroName: 'prod_gen_energycells_macro',
       version: 0,
       name: 'Energy Cell Production',
       description: 'No information available',
@@ -2162,6 +2177,7 @@ export const Modules = {
    },
    module_gen_prod_graphene_01: {
       id: 'module_gen_prod_graphene_01',
+      macroName: 'prod_gen_graphene_macro',
       version: 0,
       name: 'Graphene Production',
       description: 'No information available',
@@ -2276,6 +2292,7 @@ export const Modules = {
    },
    module_gen_prod_microchips_01: {
       id: 'module_gen_prod_microchips_01',
+      macroName: 'prod_gen_microchips_macro',
       version: 0,
       name: 'Microchip Production',
       description: 'No information available',
@@ -2446,6 +2463,7 @@ export const Modules = {
    },
    module_gen_prod_quantumtubes_01: {
       id: 'module_gen_prod_quantumtubes_01',
+      macroName: 'prod_gen_quantumtubes_macro',
       version: 0,
       name: 'Quantum Tube Production',
       description: 'No information available',
@@ -2497,6 +2515,7 @@ export const Modules = {
    },
    module_gen_prod_refinedmetals_01: {
       id: 'module_gen_prod_refinedmetals_01',
+      macroName: 'prod_gen_refinedmetals_macro',
       version: 0,
       name: 'Refined Metal Production',
       description: 'No information available',
@@ -2668,6 +2687,7 @@ export const Modules = {
    },
    module_gen_prod_siliconwafers_01: {
       id: 'module_gen_prod_siliconwafers_01',
+      macroName: 'prod_gen_siliconwafers_macro',
       version: 0,
       name: 'Silicon Wafer Production',
       description: 'No information available',
@@ -2824,6 +2844,7 @@ export const Modules = {
    },
    module_gen_prod_superfluidcoolant_01: {
       id: 'module_gen_prod_superfluidcoolant_01',
+      macroName: 'prod_gen_superfluidcoolant_macro',
       version: 0,
       name: 'Superfluid Coolant Production',
       description: 'No information available',
